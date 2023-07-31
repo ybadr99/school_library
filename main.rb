@@ -1,25 +1,5 @@
 require_relative 'app'
 
-
-def create_a_book(app)
-  print 'Title: '
-  title = gets.chomp
-  print 'Author: '
-  author = gets.chomp
-  app.create_a_book(title, author)
-  list_numbers
-end
-
-def create_a_rental(app)
-  app.create_a_rental
-  list_numbers
-end
-
-def list_all_rentals(app)
-  app.list_all_rentals
-  list_numbers
-end
-
 def list_numbers()
   list = "
 Please choose an option by enterin a number (1-7):
@@ -58,11 +38,18 @@ def main()
       app.create_a_person(choice, name, age)
       number = list_numbers
     when '4'
-      number = create_a_book(app)
+      print 'Title: '
+     title = gets.chomp
+     print 'Author: '
+     author = gets.chomp
+     app.create_a_book(title, author)
+     number = list_numbers
     when '5'
-      number = create_a_rental(app)
+    app.create_a_rental
+    number = list_numbers
     when '6'
-      number = list_all_rentals(app)
+     app.list_all_rentals
+     number = list_numbers
     when '7'
       puts 'Thank you for using this app!'
       break
