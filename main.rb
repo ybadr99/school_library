@@ -39,17 +39,17 @@ def main()
       number = list_numbers
     when '4'
       print 'Title: '
-     title = gets.chomp
-     print 'Author: '
-     author = gets.chomp
-     app.create_a_book(title, author)
-     number = list_numbers
+      title = gets.chomp
+      print 'Author: '
+      author = gets.chomp
+      app.create_a_book(title, author)
+      number = list_numbers
     when '5'
-    app.create_a_rental
-    number = list_numbers
+      app.create_a_rental
+      number = list_numbers
     when '6'
-     app.list_all_rentals
-     number = list_numbers
+      app.list_all_rentals
+      number = list_numbers
     when '7'
       puts 'Thank you for using this app!'
       break
