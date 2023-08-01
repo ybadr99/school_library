@@ -23,10 +23,10 @@ def main()
   loop do
     case number
     when '1'
-      app.list_all_books
+      app.list_books
       number = list_numbers
     when '2'
-      app.list_all_people
+      app.list_people
       number = list_numbers
     when '3'
       print 'Do you want to create a student (1) or a teacher (2)? [Input the number]: '
@@ -35,20 +35,20 @@ def main()
       age = gets.chomp.to_i
       print 'Name: '
       name = gets.chomp
-      app.create_a_person(choice, name, age)
+      app.create_person(choice, name, age)
       number = list_numbers
     when '4'
       print 'Title: '
       title = gets.chomp
       print 'Author: '
       author = gets.chomp
-      app.create_a_book(title, author)
+      app.create_book(title, author)
       number = list_numbers
     when '5'
-      app.create_a_rental
+      app.create_rental
       number = list_numbers
     when '6'
-      app.list_all_rentals
+      app.list_rentals
       number = list_numbers
     when '7'
       puts 'Thank you for using this app!'
