@@ -3,6 +3,9 @@ require_relative 'student'
 require_relative 'person'
 require_relative 'lists'
 require_relative 'rental'
+
+require 'json'
+
 class Create
   def initialize
     @list = List.new
@@ -42,7 +45,8 @@ class Create
 
   def book(title, author, books_list)
     book = Book.new(title, author)
-    books_list.push(book)
+    books_list.push({ 'title' => book.title, 'author' => author })
+    File.write('./data/books.json', JSON.pretty_generate(books_list))
     puts 'The Book created successfully'
     puts 'Press Enter to continue!'
   end

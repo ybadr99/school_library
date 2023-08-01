@@ -5,11 +5,12 @@ require_relative 'student'
 require_relative 'teacher'
 require_relative 'lists'
 require_relative 'create'
+require_relative 'file_loader'
 
 class App
   def initialize()
     @people_list = []
-    @books_list = []
+    @books_list = FileLoader.load_file('./data/books.json')
     @rentals = []
     @list = List.new
     @create = Create.new

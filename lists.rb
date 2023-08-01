@@ -2,7 +2,7 @@ class List
   def books(list)
     puts 'No books' if list.empty?
     list.each_with_index do |book, index|
-      puts "book number: #{index}, Title: \"#{book.title}\", Author: #{book.author}"
+      puts "book number: #{index + 1}, Title: \"#{book['title']}\", Author: #{book['author']}"
     end
   end
 
