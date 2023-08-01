@@ -6,7 +6,6 @@ require_relative 'teacher'
 require_relative 'lists'
 require_relative 'create'
 
-
 class App
   def initialize()
     @people_list = []
