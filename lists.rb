@@ -9,7 +9,7 @@ class List
   def people(list)
     puts 'No people' if list.empty?
     list.each_with_index do |person, index|
-      puts "[#{person.class}] person number: #{index}, Name: \"#{person.name}\", ID: #{person.id}, Age: #{person.age}"
+      puts "[#{person['type']}] person number: #{index + 1}, Name: \"#{person['name']}\", ID: #{person['id']}, Age: #{person['age']}"
     end
   end
 

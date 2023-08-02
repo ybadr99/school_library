@@ -3,6 +3,7 @@ require_relative 'student'
 require_relative 'person'
 require_relative 'lists'
 require_relative 'rental'
+require_relative 'file_io'
 
 require 'json'
 
@@ -22,6 +23,7 @@ class Create
       puts 'Uncorrect inputs!'
     end
     people_list.push(person)
+    FileIO.save_to_file('./data/people.json', people_list)
     puts 'created successfully'
     puts 'Press Enter to continue!'
   end
@@ -45,8 +47,10 @@ class Create
 
   def book(title, author, books_list)
     book = Book.new(title, author)
-    books_list.push({ 'title' => book.title, 'author' => author })
-    File.write('./data/books.json', JSON.pretty_generate(books_list))
+    books_list.push(book)
+    FileIO.save_to_file('./data/books.json', books_list)
+    # books_list.push({ 'title' => book.title, 'author' => author })
+    # File.write('./data/books.json', JSON.pretty_generate(books_list))
     puts 'The Book created successfully'
     puts 'Press Enter to continue!'
   end

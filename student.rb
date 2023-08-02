@@ -13,4 +13,8 @@ class Student < Person
   def play_hooky
     '¯(ツ)/¯'
   end
+
+  def to_hash
+    { 'id' => @id, 'name' => @name, 'age' => @age, 'classroom' => @classroom.label, 'type' => 'Student' }
+  end
 end
