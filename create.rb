@@ -35,8 +35,9 @@ class Create
     label = gets.chomp
     parent_permission = true if %w[Y y].include?(parent_decision)
     parent_permission = false if %w[N n].include?(parent_decision)
+    id = 5
     classroom = Classroom.new(label)
-    Student.new(classroom, age, name, parent_permission: parent_permission)
+    Student.new(classroom, age, name, parent_permission: parent_permission, id: id)
   end
 
   def create_a_teacher(name, age)
