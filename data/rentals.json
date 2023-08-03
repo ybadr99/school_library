@@ -1,0 +1,32 @@
+[
+  {
+    "date": "1-1-288",
+    "book": {
+      "title": "book2",
+      "author": "me",
+      "rental": null
+    },
+    "person": {
+      "id": 385,
+      "name": "ee",
+      "age": 22,
+      "classroom": "3",
+      "type": "Student"
+    }
+  },
+  {
+    "date": "1-1-8000",
+    "book": {
+      "title": "book1",
+      "author": "me",
+      "rental": null
+    },
+    "person": {
+      "id": 259,
+      "name": "keto",
+      "age": 22,
+      "classroom": "2",
+      "type": "Student"
+    }
+  }
+]

@@ -2,14 +2,14 @@ class List
   def books(list)
     puts 'No books' if list.empty?
     list.each_with_index do |book, index|
-      puts "book number: #{index}, Title: \"#{book.title}\", Author: #{book.author}"
+      puts "book number: #{index + 1}, Title: \"#{book['title']}\", Author: #{book['author']}"
     end
   end
 
   def people(list)
     puts 'No people' if list.empty?
     list.each_with_index do |person, index|
-      puts "[#{person.class}] person number: #{index}, Name: \"#{person.name}\", ID: #{person.id}, Age: #{person.age}"
+      puts "[#{person['type']}] person number: #{index + 1}, Name: \"#{person['name']}\", ID: #{person['id']}, Age: #{person['age']}"
     end
   end
 

@@ -1,0 +1,44 @@
+[
+  {
+    "title": "book1",
+    "author": "me"
+  },
+  {
+    "title": "book2",
+    "author": "me"
+  },
+  {
+    "title": "saf",
+    "author": "asdf"
+  },
+  {
+    "title": "swd",
+    "author": "asd"
+  },
+  {
+    "title": "1",
+    "author": "1"
+  },
+  {
+    "title": "2",
+    "author": "2"
+  },
+  {
+    "title": "2",
+    "author": "2"
+  },
+  {
+    "title": "test",
+    "author": "test"
+  },
+  {
+    "title": "333",
+    "author": "333",
+    "rental": null
+  },
+  {
+    "title": "444",
+    "author": "4444",
+    "rental": null
+  }
+]

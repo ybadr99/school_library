@@ -14,4 +14,8 @@ class Book
     @rentals.push(rental)
     rental.book = self
   end
+
+  def to_hash
+    { 'title' => @title, 'author' => @author, 'rental' => @rental }
+  end
 end
