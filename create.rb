@@ -69,6 +69,7 @@ Date: '
     date = gets.chomp
     rental = Rental.new(date, book_list[index_book], people_list[index_person])
     rentals.push(rental)
+    FileIO.save_to_file('./data/rentals.json', rentals)
     puts 'The Rental created successfully'
     puts 'Press Enter to continue!'
   end
