@@ -11,7 +11,7 @@ class App
   def initialize()
     @people_list = FileIO.load_file('./data/people.json')
     @books_list = FileIO.load_file('./data/books.json')
-    @rentals = []
+    @rentals = FileIO.load_file('./data/rentals.json')
     @list = List.new
     @create = Create.new
   end
