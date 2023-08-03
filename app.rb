@@ -17,13 +17,13 @@ class App
   end
 
   def list_books
-    @list.books(@books_list)
+    @list.books
     puts 'Press Enter to continue!'
     gets.chomp
   end
 
   def list_people
-    @list.people(@people_list)
+    @list.people
     puts 'Press Enter to continue!'
     gets.chomp
   end
@@ -44,7 +44,7 @@ class App
   end
 
   def list_rentals
-    @list.rentals(@rentals)
+    @list.rentals
     gets.chomp
   end
 end
