@@ -35,9 +35,8 @@ class Create
     label = gets.chomp
     parent_permission = true if %w[Y y].include?(parent_decision)
     parent_permission = false if %w[N n].include?(parent_decision)
-    id = 77
     classroom = Classroom.new(label)
-    Student.new(classroom, age, name, id: id, parent_permission: parent_permission)
+    Student.new(classroom, age, name, parent_permission: parent_permission)
   end
 
   def create_a_teacher(name, age)
@@ -65,8 +64,8 @@ class Create
     std_obj = people_list[index_person]
 
     book_instance = Book.new(book_obj['title'], book_obj['author'])
-
     classroom = Classroom.new(std_obj['classroom'])
+
     std_instance = Student.new(classroom, std_obj['age'], std_obj['name'], id: std_obj['id'])
 
     print "\nDate: "
