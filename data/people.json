@@ -47,5 +47,31 @@
     "age": 55,
     "classroom": "0",
     "type": "Student"
+  },
+  {
+    "name": "aya",
+    "age": 44,
+    "specialization": "maths",
+    "type": "Teacher"
+  },
+  {
+    "id": 64,
+    "name": "sumeya",
+    "age": 33,
+    "classroom": "4",
+    "type": "Student"
+  },
+  {
+    "name": "berut",
+    "age": 23,
+    "specialization": "english",
+    "type": "Teacher"
+  },
+  {
+    "id": 377,
+    "name": "weeee",
+    "age": 1,
+    "specialization": "civics",
+    "type": "Teacher"
   }
 ]

@@ -44,7 +44,7 @@ class App
   end
 
   def list_rentals
-    @list.rentals(@people_list)
+    @list.rentals(@rentals)
     gets.chomp
   end
 end

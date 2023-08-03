@@ -1,21 +1,6 @@
 [
   {
-    "date": "1-1-288",
-    "book": {
-      "title": "book2",
-      "author": "me",
-      "rental": null
-    },
-    "person": {
-      "id": 385,
-      "name": "ee",
-      "age": 22,
-      "classroom": "3",
-      "type": "Student"
-    }
-  },
-  {
-    "date": "1-1-8000",
+    "date": "80",
     "book": {
       "title": "book1",
       "author": "me",
@@ -26,6 +11,21 @@
       "name": "keto",
       "age": 22,
       "classroom": "2",
+      "type": "Student"
+    }
+  },
+  {
+    "date": "70",
+    "book": {
+      "title": "333",
+      "author": "333",
+      "rental": null
+    },
+    "person": {
+      "id": 377,
+      "name": "weeee",
+      "age": 1,
+      "classroom": null,
       "type": "Student"
     }
   }

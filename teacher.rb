@@ -3,8 +3,8 @@ require_relative 'person'
 class Teacher < Person
   attr_reader :specialization
 
-  def initialize(specialization, age, name = 'Unknown')
-    super(age, name)
+  def initialize(specialization, age, name = 'Unknown', id: nil)
+    super(age, name, id: id)
     @specialization = specialization
   end
 
@@ -13,6 +13,6 @@ class Teacher < Person
   end
 
   def to_hash
-    { 'name' => @name, 'age' => @age, 'specialization' => @specialization, 'type' => 'Teacher' }
+    { 'id' => @id, 'name' => @name, 'age' => @age, 'specialization' => @specialization, 'type' => 'Teacher' }
   end
 end
