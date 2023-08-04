@@ -27,6 +27,10 @@ class Person < Nameable
     rental.person = self
   end
 
+  def to_hash
+    { 'name' => @name, 'age' => @age }
+  end
+
   private
 
   def of_age?

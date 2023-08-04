@@ -102,6 +102,11 @@ To run tests, run the following command:
 - GitHub: [@ybadr99](https://github.com/ybadr99)
 - LinkedIn: [yousef badr](https://www.linkedin.com/in/yousef-mohamed-badr)
 
+👤 **Sumeya Ibrahim**
+
+- GitHub: [@isume295](https://github.com/isume295)
+- LinkedIn: [@isume295](https://www.linkedin.com/in/sumeya-ibrahim)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -142,6 +147,6 @@ To run tests, run the following command:
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
