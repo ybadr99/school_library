@@ -102,6 +102,11 @@ To run tests, run the following command:
 - GitHub: [@ybadr99](https://github.com/ybadr99)
 - LinkedIn: [yousef badr](https://www.linkedin.com/in/yousef-mohamed-badr)
 
+👤 **Sumeya Ibrahim**
+
+- GitHub: [@ybadr99](https://github.com/isume295)
+- LinkedIn: [yousef badr](https://www.linkedin.com/in/sumeya-ibrahim)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
