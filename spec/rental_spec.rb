@@ -28,7 +28,7 @@ RSpec.describe Rental do
     end
   end
 
-  describe '#retrieve right data' do
+  describe '#to_hash' do
     it 'returns the correct hash representation' do
       expected_hash = {
         'date' => '2023',
