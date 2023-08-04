@@ -37,14 +37,14 @@ RSpec.describe Book do
     end
   end
 
-  
+
   describe '#to_hash' do
     it 'returns a hash with the correct keys and values' do
       expected_hash = {
         'title' => book_title,
         'author' => book_author,
-        "rental" => nil
-         
+        'rental' => nil
+
       }
       expect(book.to_hash).to eq(expected_hash)
     end

@@ -21,10 +21,10 @@ RSpec.describe Person do
   end
 
   describe '#correct_name' do
-  it 'returns the correct name' do
-    expect(person.correct_name).to eq(name)
+    it 'returns the correct name' do
+      expect(person.correct_name).to eq(name)
+    end
   end
-end
 
   describe '#can_use_services?' do
     context 'when age > 20' do
@@ -64,6 +64,16 @@ end
 
     it 'sets the person for the rental' do
       expect(rental.person).to eq(person)
+    end
+  end
+
+  describe '#to_hash' do
+    it 'returns a hash with the correct keys and values' do
+      expected_hash = {
+        'name' => name,
+        'age' => age
+      }
+      expect(person.to_hash).to eq(expected_hash)
     end
   end
 end

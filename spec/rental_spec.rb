@@ -27,4 +27,22 @@ RSpec.describe Rental do
       expect(@rental.person.age).to eql 25
     end
   end
+
+  describe '#retrieve right data' do
+    it 'returns the correct hash representation' do
+      expected_hash = {
+        'date' => '2023',
+        'book' => {
+          'title' => 'Book1',
+          'author' => 'me',
+          'rental' => nil
+        },
+        'person' => {
+          'name' => 'Person1',
+          'age' => 25
+        }
+      }
+      expect(@rental.to_hash).to eq(expected_hash)
+    end
+  end
 end
