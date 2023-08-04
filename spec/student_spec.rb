@@ -1,7 +1,6 @@
 require_relative '../student'
 require_relative '../classroom'
 
-
 RSpec.describe Student do
   let(:name) { 'sumeya' }
   let(:age) { 24 }
