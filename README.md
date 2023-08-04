@@ -104,8 +104,8 @@ To run tests, run the following command:
 
 👤 **Sumeya Ibrahim**
 
-- GitHub: [@ybadr99](https://github.com/isume295)
-- LinkedIn: [yousef badr](https://www.linkedin.com/in/sumeya-ibrahim)
+- GitHub: [@isume295](https://github.com/isume295)
+- LinkedIn: [@isume295](https://www.linkedin.com/in/sumeya-ibrahim)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
