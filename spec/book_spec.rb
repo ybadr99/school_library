@@ -37,7 +37,6 @@ RSpec.describe Book do
     end
   end
 
-
   describe '#to_hash' do
     it 'returns a hash with the correct keys and values' do
       expected_hash = {
