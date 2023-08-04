@@ -20,6 +20,12 @@ RSpec.describe Person do
     end
   end
 
+  describe '#correct_name' do
+  it 'returns the correct name' do
+    expect(person.correct_name).to eq(name)
+  end
+end
+
   describe '#can_use_services?' do
     context 'when age > 20' do
       let(:age) { 20 }
